@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tejas Upadhye - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header/Navigation -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="logo">Tejas Upadhye</a>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Hi, I'm Tejas Upadhye</h1>
+                <p>A passionate Computer Science student and web developer with expertise in building user-centric applications and working with cross-functional teams.</p>
+                <a href="#contact" class="btn">Get In Touch</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Learn more about my background and what drives me</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Web Developer & Computer Science Student</h3>
+                    <p>
+                        <strong>Passionate Web Developer & Computer Science Student</strong><br>
+                        I am a dedicated web developer and Computer Science student with a strong foundation in <strong>Data Structures & Algorithms (DSA)</strong>, <strong>Object-Oriented Programming</strong>, <strong>Computer Networks</strong>, and <strong>Operating Systems</strong>. My passion lies in <em>crafting high-quality code</em> and delivering <em>innovative solutions</em> to complex problems.
+                    </p>
+                    
+                    <p>
+                        <strong>Academic Pursuits</strong><br>
+                        Currently pursuing my <strong>Bachelor's degree in Computer Science</strong> at <strong>BMS Institute of Technology and Management, Bengaluru</strong>, I am committed to excellence in both academics and practical applications. My focus is on developing <em>scalable, efficient, and user-centric software solutions</em>.
+                    </p>
+                    
+                    <p>
+                        <strong>Full-Stack Development Expertise</strong><br>
+                        With hands-on experience in both <strong>front-end</strong> and <strong>back-end development</strong>, I specialize in building <em>responsive</em> and <em>user-friendly applications</em>. I thrive in collaborative environments, working with cross-functional teams to create <em>robust and scalable web solutions</em>.
+                    </p>
+                    
+                    <p>
+                        <strong>Problem-Solving Skills</strong><br>
+                        I have solved <strong>150+ DSA problems</strong> on platforms like <strong>LeetCode</strong>, <strong>HackerEarth</strong>, and <strong>CodeChef</strong>, continuously honing my <em>problem-solving abilities</em> and <em>algorithmic thinking</em>.
+                    </p>
+                </div>
+                <div class="about-image">
+                    <img src="tejas.jpg.jpg" alt="Tejas Upadhye" style="width: 350px; height: auto; border-radius: 70px;">
+            </div>
+        </div>
+    </section>
+    
+    <section id="skills" class="section skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">My Skills</h2>
+                <p class="section-subtitle">A comprehensive overview of my technical abilities</p>
+            </div>
+            
+            <div class="skills-container">
+                <!-- Programming Languages -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Programming Languages</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">C</span>
+                        <span class="skill-tag">C++</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Go</span>
+                    </div>
+                </div>
+                
+                <!-- Front-End Development -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-laptop-code"></i> Front-End Development</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">HTML</span>
+                        <span class="skill-tag">CSS</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">React</span>
+                    </div>
+                </div>
+                
+                <!-- Back-End Development -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-server"></i> Back-End Development</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">PHP</span>
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Express.js</span>
+                    </div>
+                </div>
+                
+                <!-- Database -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-database"></i> Database</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">MongoDB</span>
+                    </div>
+                </div>
+                
+                <!-- Software Tools -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Software Tools</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Excel</span>
+                        <span class="skill-tag">MATLAB</span>
+                        <span class="skill-tag">SolidWorks</span>
+                        <span class="skill-tag">Figma</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">GitHub</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <style>
+            /* Skills Section Styling */
+            .skills-container {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+                gap: 25px;
+                max-width: 1200px;
+                margin: 0 auto;
+            }
+            
+            .section-header {
+                text-align: center;
+                margin-bottom: 40px;
+            }
+            
+            .section-title {
+                color: #2c3e50;
+                font-size: 2.2rem;
+                margin-bottom: 10px;
+                position: relative;
+                display: inline-block;
+            }
+            
+            .section-title:after {
+                content: '';
+                position: absolute;
+                width: 60px;
+                height: 3px;
+                background-color: #3498db;
+                bottom: -10px;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+            
+            .section-subtitle {
+                color: #7f8c8d;
+                font-size: 1.1rem;
+            }
+            
+            .skill-category {
+                background: white;
+                border-radius: 10px;
+                padding: 20px;
+                box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+                transition: all 0.3s ease;
+            }
+            
+            .skill-category:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+            }
+            
+            .skill-category h3 {
+                display: flex;
+                align-items: center;
+                color: #2c3e50;
+                margin-bottom: 20px;
+                font-size: 1.3rem;
+                border-bottom: 2px solid #3498db;
+                padding-bottom: 10px;
+            }
+            
+            .skill-category h3 i {
+                margin-right: 10px;
+                color: #3498db;
+            }
+            
+            .skill-tags {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 10px;
+            }
+            
+            .skill-tag {
+                background-color: #f0f7ff;
+                color: #3498db;
+                padding: 8px 15px;
+                border-radius: 20px;
+                font-size: 0.9rem;
+                border: 1px solid #d6e9ff;
+                transition: all 0.2s ease;
+            }
+            
+            .skill-tag:hover {
+                background-color: #3498db;
+                color: white;
+                transform: scale(1.05);
+            }
+            
+            /* Add simple animation */
+            @keyframes fadeIn {
+                from { opacity: 0; }
+                to { opacity: 1; }
+            }
+            
+            .skill-category {
+                animation: fadeIn 0.6s ease forwards;
+            }
+        </style>
+        
+        <!-- Add Font Awesome for icons -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+    </section>
+    
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Work Experience</h2>
+                <p class="section-subtitle">My professional journey so far</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item left">
+                    <div class="timeline-content">
+                        <h3>Web Development Intern</h3>
+                        <span class="date">September 2024 - October 2024</span>
+                        <p>SkillCraft Technology (Remote)</p>
+                        <ul>
+                            <li>Developed and optimized web applications using HTML, CSS, JavaScript, and React, ensuring responsive and user-friendly designs.</li>
+                            <li>Implemented back-end functionalities with Node.js and Express.js, integrating databases like MongoDB and MySQL for efficient data management.</li>
+                            <li>Collaborated in a team environment to enhance website performance, debug issues, and deploy scalable web solutions.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Projects Section -->
+    <section id="projects" class="section projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Projects</h2>
+                <p class="section-subtitle">A showcase of my technical work and achievements</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-img">
+                        <span>ILI</span>
+                    </div>
+                    <div class="project-info">
+                        <h3>Indian Language Interpreter</h3>
+                        <p>A multilingual text interpretation and translation system with lexical analysis, tokenization, and parsing techniques.</p>
+                        <ul>
+                            <li>Developed the backend using Go with lexical analysis, tokenization, and parsing techniques for accurate multilingual text interpretation and translation.</li>
+                            <li>Designed an interactive frontend using HTML, CSS, and JavaScript, enabling seamless multilingual input and real-time translation while maintaining original meaning.</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="#">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <span>HMS</span>
+                    </div>
+                    <div class="project-info">
+                        <h3>Hospital Management System</h3>
+                        <p>A web-based system for managing patient records, appointments, and staff details efficiently.</p>
+                        <ul>
+                            <li>Developed a web-based system using PHP and MySQL to manage patient records, appointments, and staff details efficiently.</li>
+                            <li>Implemented secure authentication and database management to ensure data integrity and accessibility.</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="#">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Education Section -->
+    <section id="education" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Education</h2>
+                <p class="section-subtitle">My academic background and qualifications</p>
+            </div>
+            <div class="education-card">
+                <h3>BMS Institute Of Technology and Management</h3>
+                <p class="degree">Bachelor of Engineering in Computer Science</p>
+                <span class="date">November 2022 - Present</span>
+                <p>CGPA: 9.15 (till 4th semester)</p>
+            </div>
+            <div class="section-header" style="margin-top: 40px;">
+                <h2 class="section-title">Relevant Coursework</h2>
+            </div>
+            <div class="education-card">
+                <ul>
+                    <li>Mastering Data Structures And Algorithms using C and C++ (Udemy)</li>
+                    <li>Operating System Course: Learn Fundamentals of Operating System (Scaler)</li>
+                    <li>Software Engineering and ALM (Infosys Springboard)</li>
+                    <li>Network Fundamentals (Infosys Springboard)</li>
+                </ul>
+            </div>
+            <div class="section-header" style="margin-top: 40px;">
+                <h2 class="section-title">Achievements</h2>
+            </div>
+            <div class="education-card">
+                <p>Solved 150+ DSA problems across LeetCode, HackerEarth and CodeChef, strengthening problem-solving skills.</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Contact Me</h2>
+                <p class="section-subtitle">Get in touch with me for opportunities or collaborations</p>
+            </div>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <h3>Phone</h3>
+                    <p>+91 9156881780</p>
+                </div>
+                <div class="contact-item">
+                    <h3>Email</h3>
+                    <a href="mailto:tejasupadhye111@gmail.com">tejasupadhye111@gmail.com</a>
+                </div>
+                <div class="contact-item">
+                    <h3>LinkedIn</h3>
+                    <a href="https://www.linkedin.com/in/tejas-upadhye-91a25a307" target="_blank">Connect with me</a>
+                </div>
+                <div class="contact-item">
+                    <h3>LeetCode</h3>
+                    <a href="https://leetcode.com/u/LeetCode_user31187270704" target="_blank">View my profile</a>
+                </div>
+            </div>
+            <div class="contact-form">
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" class="form-control" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/tejas-upadhye-91a25a307" target="_blank">LinkedIn</a>
+                <a href="https://leetcode.com/u/LeetCode_user31187270704" target="_blank">LeetCode</a>
+                <a href="https://github.com/" target="_blank">GitHub</a>
+            </div>
+            <p class="copyright">© 2025 All rights reserved.</p>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
